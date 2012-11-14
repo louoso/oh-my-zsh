@@ -38,3 +38,5 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=vim
 export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1
+
+set -o vi
