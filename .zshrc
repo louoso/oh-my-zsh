@@ -41,4 +41,4 @@ export CLICOLOR=1
 
 set -o vi
 
-export PATH=/opt/local/bin:/opt/local/lib/postgresql90/bin:$PATH:/opt/nginx/sbin
+export PATH=/opt/local/bin:/opt/local/lib/postgresql90/bin:$PATH:/opt/nginx/sbin:/web/tools/bin
