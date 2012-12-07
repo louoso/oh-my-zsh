@@ -41,4 +41,4 @@ export CLICOLOR=1
 
 set -o vi
 
-export PATH=/opt/local/bin:/opt/local/lib/postgresql90/bin:$PATH:/opt/nginx/sbin:/web/tools/bin:~/home/scala/scala-2.9.0.1/bin
+export PATH=/opt/local/bin:/opt/local/lib/postgresql90/bin:$PATH:/opt/nginx/sbin:/web/tools/bin
