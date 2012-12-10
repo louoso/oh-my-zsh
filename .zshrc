@@ -40,5 +40,6 @@ export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1
 
 set -o vi
+bindkey "^R" history-incremental-search-backward
 
 export PATH=/opt/local/bin:/opt/local/lib/postgresql90/bin:$PATH:/opt/nginx/sbin:/web/tools/bin
