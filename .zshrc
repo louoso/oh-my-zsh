@@ -40,3 +40,4 @@ export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1
 
 set -o vi
+bindkey "^R" history-incremental-search-backward
