@@ -39,5 +39,8 @@ export EDITOR=vim
 export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1
 
+setopt inc_append_history
+setopt share_history
+
 set -o vi
 bindkey "^R" history-incremental-search-backward
