@@ -45,4 +45,6 @@ setopt share_history
 set -o vi
 bindkey "^R" history-incremental-search-backward
 
-export PATH=/opt/local/bin:/opt/local/lib/postgresql90/bin:$PATH:/opt/nginx/sbin:/web/tools/bin
+export ANT_OPTS="-Xmx2048m -Xms512m -XX:MaxPermSize=256m"
+export MAVEN_OPTS="-Xmx2048m -Xms512m -XX:MaxPermSize=256m"
+export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=1024M"
