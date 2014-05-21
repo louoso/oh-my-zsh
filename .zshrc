@@ -38,6 +38,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=vim
 export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1
+export ANDROID_HOME="/Applications/Android Studio.app/sdk/"
 
 setopt inc_append_history
 setopt share_history
@@ -48,3 +49,5 @@ bindkey "^R" history-incremental-search-backward
 export ANT_OPTS="-Xmx2048m -Xms512m -XX:MaxPermSize=256m"
 export MAVEN_OPTS="-Xmx2048m -Xms512m -XX:MaxPermSize=256m"
 export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=1024M"
+
+alias sbt=/web/tools/bin/sbt
