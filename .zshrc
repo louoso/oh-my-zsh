@@ -38,7 +38,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=vim
 export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1
-export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
 setopt inc_append_history
 setopt share_history
