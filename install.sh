@@ -14,3 +14,6 @@ do
   fi
   ln -s "${PWD}/$name" "$file"
 done
+
+ln -s "${PWD}" .oh-my-zsh
+chsh -s $(which zsh)
